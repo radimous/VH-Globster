@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.radimous.globster.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "globster.refmap.json",
+  "mixins": [
+    "MixinGlobUtils"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
